@@ -15,10 +15,36 @@ public class main {
         System.out.println(정수);
         
         
-       String 결과값 = 문자열 + 정수 + 정수 + 정수;
+       String 결과값 = 문자열 + 정수 + 정수;
        System.out.println(결과값);
-        
-        
+       
+       
+
+       
+       
+       byte b1 = 10;
+       short s1 =20;
+       int i1 =100;
+       long l1 = 1000;
+       i1 = b1; //int(4byte) <=byte(1byte)
+       s1 = (short)l1;
+       float f = l1;
+       
+       
+       char single = '\'';
+       String quote = "hello \"홍길동!\"";
+       String root = "c:\\";
+       System.out.println(single);
+       System.out.println(quote);
+       System.out.println(root);
+       System.out.println("서울\t대구\t부산");
+       System.out.println("안녕하세요\n 이 부분은 다음 줄에");
+       System.out.println("\uD64D\uAE38\uB3D9");
+       
+       
+       
+       
+       
 	}
 	
 
