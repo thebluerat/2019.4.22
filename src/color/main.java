@@ -22,7 +22,7 @@ public class main {
         System.out.println(정수);
         
         
-       String 결과값 = 문자열 + (정수 + 정수 + 정수) + 문자열;
+       String 결과값 = 문자열 + (정수 + 정수 + 정수);
        System.out.println(결과값);
         
         
