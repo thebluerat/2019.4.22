@@ -1,5 +1,7 @@
 package color;
 
+import color0423.Var;
+
 public class main {
 	public  void main(String[] a) {
 		System.out.println("변수 시작!");
@@ -41,6 +43,9 @@ public class main {
        System.out.println("\uD64D\uAE38\uB3D9");
        
        
+    Var v = new Var();
+    int s = v.state1;
+    
        
        
        
