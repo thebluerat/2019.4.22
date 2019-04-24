@@ -23,5 +23,6 @@ public class 계산기 {
 	public float 곱셈(int a, int b) {
 		return (float) (a * b);
 	}
+	
 
 }

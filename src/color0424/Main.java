@@ -12,7 +12,7 @@ public class Main {
 	//4. static(정적) : 만들지 않는다. 단, main 메소드에만 static을 사용한다. ) 계산기 c = new 계산기(); System.out.println(c.덧셈(5, 3));
 	//5. 재사용성 - 가능하면 기능을 구현하는 클래스를 따로 둔다
 	
-	public static void main(String[] ag) {
+	public void main(String[] ag) {
 		계산기 calc = new 계산기();
 		int a = 2;
 		int b = 4;
