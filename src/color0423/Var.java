@@ -13,6 +13,8 @@ public class Var {
 	protected int state2;
 	int state3;
 	private int state4;
+	public int state5;
+	
 	
 	void var2(int a, int b) {
 		System.out.println(a + b);
