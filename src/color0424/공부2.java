@@ -2,7 +2,7 @@ package color0424;
 
 import java.util.Scanner;
 
-public class 공부2 {
+public class 공부2 {//p60
 
 	public static void main(String[] args) {
 
@@ -14,6 +14,11 @@ public class 공부2 {
 			if(score>=95) grade = "A+";
 			else grade = "A0";
 			}
+		else if(score>=80) {
+			if(score>=85) grade = "B+";
+			else grade = "B0";
+		}else grade = "F";
+		
 		
 		
 		
