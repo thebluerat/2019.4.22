@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Main2 {
 
-	public static void main(String[] args) {
+	public  void main(String[] args) {
 		조건문 t = new 조건문();
 		t.t1(11);
 		boolean r = t.t2(10);

@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Main3 {
 
-	public static void main(String[] args) {
+	public  void main(String[] args) {
 	 Scanner scan =  new Scanner(System.in);
 	 System.out.println("계산 시작");
 	 System.out.print("첫 번째 값을 입력하세요>");
