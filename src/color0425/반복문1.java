@@ -117,15 +117,16 @@ for(int i = 0; i < 5; i++) {
 	}
 	
 	public void t9() {
-		for(int i = 1; i < 10; i++) {
-			System.out.println( i + "단");
-			for(int j = 1; j<10; j++) {
-				System.out.print(i + " * " + j + " = " + i*j);
-				System.out.println("\t");
-				System.out.print(i + " * " + j + " = " + i*j);
+		
+		for (int i = 1; i < 10; i+=3) {
+			
+			System.out.println(i + ("단") + "\t" + "\t" + (i + 1) + ("단") + "\t"  + "\t" + (i + 2) + ("단"));
+			
+			for(int j = 1; j <10; j++) {
+				System.out.println(i + " * " + j + " = " + i*j + "\t" + (i+1) + " * " + (j) + " = " + (i+1)*(j)  + "\t"  + (i+2) + " * " + (j) + " = " + (i+2)*(j));
 				
-			}
-		}System.out.println();
+			}System.out.println();
+		}
 	}
 
 }
