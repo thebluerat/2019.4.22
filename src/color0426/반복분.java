@@ -1,5 +1,7 @@
 package color0426;
 
+import java.util.Scanner;
+
 public class 반복분 {
 	
 	public void lv1() {
@@ -62,7 +64,57 @@ public class 반복분 {
 			}
 		
 		
-	}
+	   }
+		
+		
+		public void lv4() {
+			Scanner scan = new Scanner(System.in);
+			//x축으로 출력할 개수를 입력받는다
+			System.out.println("x축으로 출력할 개수를 입력하세요.");
+			int x축 = scan.nextInt();
+			for(int y = 1; y <= 9; y= y+x축) {
+				for(int x = 1; x<=9; x++) {
+					for(int 계산 = 0; 계산<x축; 계산++) {
+						System.out.print((y+계산) + " * " + x + " = " +  ((y+계산)*x) + "\t");
+					}
+					System.out.println();
+				}
+				System.out.println();
+				
+			}
+			scan.close();
+			
+		}
+		
+		public void lv5() {
+			
+			
+			Scanner scan = new Scanner(System.in);
+			System.out.println("x축으로 출력할 개수를 입력하세요.");
+			int x축 = scan.nextInt();
+			System.out.println("x축으로 출력할 개수를 입력하세요.");
+			int Y축 = scan.nextInt();
+			for(int y = 1; y <= Y축; y= y+x축) {
+				for(int x = 1; x<=9; x++) {
+					for(int 계산 = 0; 계산<x축; 계산++) {
+						System.out.print((y+계산) + " * " + x + " = " +  ((y+계산)*x) + "\t");
+					}
+					System.out.println();
+				}
+				System.out.println();
+				
+			}
+			scan.close();
+			
+			
+			
+			
+			
+			
+		}
+		
+		
+		
 	
 
 }
