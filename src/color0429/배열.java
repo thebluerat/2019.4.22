@@ -178,7 +178,7 @@ System.out.println();
 				break;
 			default:
 				break;
-			if(y==8 && x==8) break;
+			
 			
 			
 			

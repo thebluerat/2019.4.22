@@ -11,7 +11,11 @@ public class Main {
 	//	표.t4();
 		//boolean result = 표.t5(2,1,1,1);
 	//	System.out.println(result);
-		표.t6();
+		//표.t6();
+	
+		
+		
+		
 		
 
 	}
